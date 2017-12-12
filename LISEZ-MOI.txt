@@ -4,6 +4,7 @@ Réalisé en binome en fin de première année, un jeu relativement simple programmé
 
 Projet moteur visualisation de fractale : 
 Réalisé en binome, un moteur de visualisation de fractales en JAVA utilisant la bibliothèque SWING
+Lancez le .jar contenu dans le dossier du projet, il s'agit d'un executable
 
 
 Projet Framework Ionic : 
