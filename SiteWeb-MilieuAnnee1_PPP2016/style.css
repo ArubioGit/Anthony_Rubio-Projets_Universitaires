@@ -1,0 +1,645 @@
+  /*------------------------CSS DU HEADER-Anthony Rubio---------------------------------*/
+  header{
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  }
+
+  #interview header,#about header{
+    height: 180px;
+    margin-bottom:150px;
+  }
+
+
+  header img{
+    display: block;
+    text-align: center;
+    width:360px;
+    margin:auto;
+
+
+  }
+  header nav{
+  margin: auto;
+  }
+  header ul{
+    padding: 0;
+  }
+  @media screen and (max-width:992px){
+  header nav{
+    width:120px;
+    margin:auto;
+  }
+  }
+
+
+  header nav li{
+    list-style: none;
+    width: 120px;
+    text-align: center;
+  }
+  @media screen and (min-width:993px){
+  header nav{
+    width: 480px;
+
+  }
+    header ul{
+  display: inline-block;
+    width: 480px;
+
+  }
+    header nav li{
+      display: inline-block;
+      width: 76px;
+      margin: 20px;
+    }
+  }
+
+  header nav a{
+    color: black;
+    font-size: 18px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-bottom:2px;
+    text-decoration: none;
+  }
+  header nav a:hover{
+    color: #0ba39c;
+    text-decoration: none;
+  }
+
+
+  /*------------------------------------------------------------------------------------*/
+
+
+  /*------------------------CSS DU FOOTER-Renaudon Tristan---------------------------------*/
+
+/* Force l'utilisation de toute la largeur de la page */
+.col-xs-12.col-sm-12.col-md-12.col-lg-12{
+  padding: 0px;
+}
+
+/* Icones du footer */
+footer .facebook{
+  text-align: center;
+  background: url("images/icones/white-facebook.png") no-repeat;
+  width: 30px;
+  height: 30px;
+
+}
+
+footer .facebook:hover{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: url("images/icones/black-facebook.png") no-repeat;
+
+}
+
+footer .twitter{
+  text-align: center;
+  background: url("images/icones/white-twitter.png") no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+footer .twitter:hover{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: url("images/icones/black-twitter.png") no-repeat;
+}
+
+footer .google{
+  text-align: center;
+  background: url("images/icones/white-g+.png") no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+footer .google:hover{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: url("images/icones/black-g+.png") no-repeat;
+}
+
+footer .linkdin{
+  text-align: center;
+  background: url("images/icones/white-linkdin.png") no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+footer .linkdin:hover{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: url("images/icones/black-linkdin.png") no-repeat;
+  }
+  footer a.Copyrights{
+    color: white;
+    font-family: "Arial Black",Gadget,sans-serif;
+  }
+
+
+/* footer dans un format de page grand / normal / petit */
+  @media screen and (min-width:768px){
+
+    /* Rendu graphique + positionnement du bandeau */
+    footer{
+      margin-top: 60px;
+      margin-bottom: 60px;
+      padding: 30px;
+      background-image: url("images/textures/bgtext.png");
+      background-repeat: repeat;
+
+      color: white;
+      text-align: center;
+      box-shadow: 0px 3px 3px black;
+    }
+
+    /* positionnement des différents éléments contenus dans le bandeau */
+    footer p{
+      margin: 0px;
+      text-align: left;
+    }
+
+    footer a{
+      float:right;
+      padding-left: 20px;
+    }
+
+    footer a.Copyrights{
+      float:left;
+      margin-right: 5px;
+    }
+
+}
+
+/* footer dans un format de page mobile ( tres petit ) */
+
+@media screen and (max-width:768px){
+
+  /* Rendu graphique + positionnement du bandeau */
+  footer{
+    margin-top: 30px;transition-delay: 0.4s;
+    margin-bottom: 60px;
+    padding: 10px;
+    padding-bottom: 30px;
+    /*background-color: grey;*/
+    background-image: url("images/textures/bgtext.png");
+    background-repeat: repeat;
+
+    color: white;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 3px 3px black;
+  }
+
+/* positionnement des différents éléments contenus dans le bandeau */
+  footer p{
+    margin: 0px;
+    text-align: left;
+  }
+
+  footer span{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  footer span.icones{
+    text-align: center;
+  }
+
+  footer a{
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  footer a.Copyrights{
+    display:block;
+    text-align: center;
+    padding: 0px;
+  }
+}
+
+  /*------------------------------------------------------------------------------------*/
+
+
+  /*------------------------CSS DE HOMEPAGE-Montferme Robin---------------------------------*/
+body {
+
+  background: linear-gradient(#fdfdfd,#dadada);
+  background: -moz-linear-gradient(#fdfdfd,#dadada);
+  background: -o-linear-gradient(#fdfdfd,#dadada);
+  background: -webkit-linear-gradient(#fdfdfd,#dadada);
+}
+  @media screen and (min-width:1200px){
+    #homecontent p{
+      font-size: 20px;
+    }
+    figcaption a{
+      font-size: 25pt;
+        }
+        section#homelinks{
+          margin-top: 50px;
+        }
+  }
+  @media screen and (min-width:992px) and (max-width:1200px){
+    #homecontent p{
+      font-size: 17px;
+    }
+    figcaption a{
+      font-size: 20pt;
+    }
+    section#homelinks{
+      margin-top: 50px;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+    #homecontent p{
+    }
+    figcaption a{
+      font-size: 15pt;
+    }
+    section#homelinks{
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width:768px){
+    #homecontent p{
+      font-size: 15px;
+    }
+    figcaption a{
+      font-size: 12pt;
+    }
+    section#homelinks{
+      margin-top: 0px;
+    }
+
+  }
+
+  figcaption a{
+    text-decoration: none;
+    color:black;
+  }
+  figcaption a:hover{
+    text-decoration: none;
+    color: #0ba39c;
+  }
+
+
+
+  #homelinks img{
+    width: 150px;
+    }
+
+  #homelinks figure{
+
+    width: 150px;
+    margin: auto;
+  }
+  #homelinks figcaption{
+
+    width: 150px;
+    margin: auto;
+    text-align: center;
+  }
+  section article p+p{
+    text-align: center;
+  }
+
+  /*------------------------------------------------------------------------------------*/
+  /*-----------------------------------CSS de la page Article---------------------------------------------*/
+
+  #article figure img{
+    width: 100px;
+  }
+  #article section.content
+  {
+    background-color: silver;
+    background-image: url("images/textures/bgtext2.png");
+    background-repeat: repeat;
+
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 20px 1px 20px;
+    box-shadow: 6px 6px 3px black;
+    color: black;
+    min-width: 230px;
+    margin-bottom: 20px;
+  }
+  #article section.content section{
+
+    border-radius: 0px 10px 0px 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+  }
+  #article h2 {
+    background-color: #9c9898;
+    display: inline-block;
+    min-width: auto;
+    margin:5px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: inset -2px 2px 15px black ,inset 2px -2px 15px black;
+    border-radius: 0px 10px 0px 10px;
+    text-decoration: underline;
+
+  }
+  #article h4{
+    margin: 8px 5px 5px 20px;
+
+
+  }
+  #article section p,#article  section ul{
+    margin-top: 20px;
+    padding-left:30px;
+    padding-right:20px;
+    text-align: justify;
+    font-size: 18px;
+  }
+  #article p.sources{
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+  }
+  #article   section a{
+    color: blue;
+  }
+  #article section+p{
+    text-align: right;
+    margin-top:10px;
+    margin-bottom: 5px;
+  }
+  body#article::before{
+    content: "";
+    width: 100%;
+    background-color:#fafafa;
+
+    height: 30px;
+    position: absolute;
+    top:244px;
+    z-index:1;
+  }
+  #article p#totop{
+    float: left;
+    position:fixed;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0;
+    left:5px;
+    top: 244px;
+  }
+  #article p#totop a{
+
+    height: 28px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #article p#totop a:hover{
+    color: #0ba39c;
+  }
+  #article p#totop img{
+    width:25px;
+  }
+
+  li{
+    padding-bottom: 20px;
+  }
+  @media screen and (max-width:992px){
+    body#article::before{
+      top:333px;
+    }
+    #article p#totop{
+      top:333px;
+    }
+  }
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+/*------------------------CSS de la page Interview-----------------------------------------------------------------------*/
+#interview .titre{
+  text-align: center;
+
+  margin-top: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+ min-height: 43px;
+ min-width:503px;
+}
+@media screen and (max-width:720px){
+  #interview h1{
+    font-size: 30px;
+  }
+}
+#interview figure img{
+  width: 150px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+#interview figure{
+  width: 150px;
+  float: left;
+}
+#interview section {
+  background-color: silver;
+  background-image: url("images/textures/bgtext2.png");
+  background-repeat: repeat;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 60px;
+  padding: 10px 15px 10px 15px;
+}
+
+ #interview .intro{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  min-height: 175px;
+}
+
+#interview p{
+  position: relative;
+  left: 15px;
+  padding-right: 25px;
+}
+
+#interview #problematique{
+color: red;
+}
+body#interview::before{
+  content: "";
+  width: 100%;
+  background-color:#f8f8f8;
+  height: 30px;
+  position: absolute;
+  top:374px;
+  z-index:2;
+}
+#interview p#totop{
+  float: left;
+  position:fixed;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  margin: 0;
+  left:5px;
+  top:374px;
+  z-index: 1;
+}
+#interview p#totop a{
+
+  height: 28px;
+  color:black;
+  text-decoration: none;
+  font-size: 20px;
+}
+#interview p#totop a:hover{
+  color: #0ba39c;
+}
+#interview p#totop img{
+  width:25px;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*------------------------------------------CSS de la page About--------------------------------------------------------*/
+#about h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 75px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  min-height: 48px;
+  min-width:372px;
+}
+  @media screen and (max-width:720px){
+    #about h1{
+      font-size: 30px;
+    }
+  }
+#about section img{
+  width:130px;
+  height: 130px;
+}
+
+#about figure{
+  width: 130px;
+  float:left;
+}
+
+#about section p{
+  position: relative;
+  text-indent: 25px;
+  left: 10px;
+  margin-right: 25px;
+  margin-top: 20px;
+  padding-right:20px;
+  text-align: justify;
+}
+
+#about section.all
+  {
+    background-color: silver;
+    background-image: url("images/textures/bgtext2.png");
+    background-repeat: repeat;
+    min-width: 192px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 20px 1px 20px;
+    box-shadow: 6px 6px 3px black;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+#about section section.part{
+    background-color: gray;
+    background-image: url("images/textures/bgtext.png");
+    background-repeat: repeat;
+    min-height: 152px;
+    border-radius: 0px 10px 0px 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 10px;
+  }
+
+#about section+p{
+    text-align: right;
+    margin-top:10px;
+    margin-bottom: 5px;
+  }
+  body#about::before{
+    content: "";
+    width: 100%;
+    background-color:#f5f5f5;
+    height: 30px;
+    margin-top: 25px;
+    position: absolute;
+    top:354px;
+    z-index:2;
+  }
+  #about p#totop{
+    float: left;
+    position:fixed;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0;
+    margin-top: 25px;
+    left:5px;
+    top:354px;
+    z-index:1;
+  }
+  #about p#totop a{
+
+    height: 28px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #about p#totop a:hover{
+    color: #0ba39c;
+  }
+  #about p#totop img{
+    width:25px;
+  }
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------CSS de la page Mention Légale--------------------------------------------------*/
+#mentions #bandeau{
+  border: 1px solid grey;
+  margin-bottom: 20px;
+
+}
+
+#mentions .titre{
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background-color: #fefefe;
+
+}
+
+#mentions section{
+  margin-top: 30px;
+  left:150px;
+}
+
+#mentions p{
+  text-align: justify;
+  margin-left: 0px;
+  position: relative;
+}
+#mentions section+a{
+  color: black ;
+  display: inline-block;
+  width: 150px;
+  margin: auto;
+
+
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+  a{
+  transition-duration:0.4s;
+  }

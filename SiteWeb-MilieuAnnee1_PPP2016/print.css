@@ -1,0 +1,39 @@
+/*------------------------CSS DU PRINT-Renaudon Tristan---------------------------------*/
+
+p{
+    font-family: Garamond, Serif;
+    font-size: 12pt;
+    text-indent: 40pt;
+    letter-spacing: 0.5pt;
+    line-height: 15pt;
+}
+
+img{
+    display:none;
+}
+
+img:link{
+    display:none;
+}
+
+a:link{
+    display:none;
+}
+
+header {
+    display:none;
+}
+
+footer{
+    display:none;
+}
+
+nav ul li{
+  display:none
+}
+
+h1{
+  margin: 0px;
+}
+
+/*------------------------------------------------------------------------------------*/

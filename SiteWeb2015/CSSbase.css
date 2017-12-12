@@ -1,0 +1,71 @@
+/* L'unité de taille "em" sera utilisé ici pour certaines taille notamment de marge ou de police */
+/* Page */
+html {
+	font-size: 100%; 
+}
+body {
+	margin: 0;
+	padding: 10px 20px; 
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif; 
+	font-size: .8em; 
+	line-height: 1.25; 
+	color: black;
+	background: white;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em 0; 
+}
+h1, h2 {
+	font-family: Shoes center;
+	font-weight: normal; 
+}
+h1 {
+	font-size: 3em; 
+	font-style: italic;
+}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 1em;}
+
+/* Listes */
+ul, ol {
+	margin: .75em 0 .75em 24px;
+	padding: 0; 
+}
+ul {
+	list-style: square;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Paragraphes */
+p {
+	margin: .75em 0;
+}
+li p, blockquote p {
+	margin: .5em 0;
+}
+
+/* Liens */
+a {
+	color: mediumblue;
+	text-decoration: underline;
+}
+a:hover, a:focus {
+	color: crimson;
+}
+a img {
+	border: none; 
+}
+
+
+#mention {
+	margin: 20px 0 5px 0;
+	text-align: right;
+	font-size: .8em;
+	color: #FEFEFE;
+}

@@ -1,0 +1,22 @@
+Projet HexLightbot :
+Réalisé en binome en fin de première année, un jeu relativement simple programmé en C++
+
+
+Projet moteur visualisation de fractale : 
+Réalisé en binome, un moteur de visualisation de fractales en JAVA utilisant la bibliothèque SWING
+
+
+Projet Framework Ionic : 
+Réalisé lors de la nuit de l'info 2017 en équipe de 5. Une petite application liée à la sécurité routière permettant de désigné aléatoirement le SAM d'une soirée. Codé sous le framework Ionic (s'appuyant sur Angular JS pour la partie web). Très bonne expérience puisque j'ai pu m'initier à ce framework que je ne connaissais pas en une nuit.
+
+
+Projet jeu Monster :
+Réalisé en binome (avec Loic Vignaud) en milieu de première année, réplique d'un jeu mobile similaire (Pudding Monster) développé en C++. 
+
+
+Projet Site Web de terminale (2015) :
+Première initiation au développement web en fin de lycée (Apprentissage HTML/CSS)
+
+
+Projet Site Web de première année de DUT :
+Site web réalisé en groupe de 4, première véritable initiation à bootstrap

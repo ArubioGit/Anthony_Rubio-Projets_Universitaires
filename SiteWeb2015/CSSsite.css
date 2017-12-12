@@ -1,0 +1,131 @@
+
+/* Général */
+body {
+	color: #F0E39E;
+	background-image: url("Images/deviantart.cp-2.jpg");
+	background-attachment: fixed ;
+	background-repeat: no-repeat ;
+}
+a {
+	color: #FF6533;
+}
+a:hover, a:focus {
+	color: #FF4C00;
+}
+strong {
+	color: #FEFEFE;
+}
+
+/* Global */
+#global {
+	border-right: 20px solid #000000; 
+	color: #FEFEFE;
+	background: #FEFEFE url(Images/06-gaucheb.png) repeat-y left top; 
+}
+
+/* En-tête */
+#entete {
+	background-image: url("Images/banniere1.png");
+	background-repeat: no-repeat ;
+}  
+
+/* Navigation */
+#navigation {
+	background: #000000;
+}
+#navigation a {
+	color: #F70101;
+}
+
+/* Contenu principal */
+#contenu {
+	color: #000000;
+}
+#contenu a {
+	color: #000000;
+}
+#contenu a:hover, #contenu a:focus {
+	color: #000000;
+}
+#contenu strong {
+	color: #000000;
+}
+
+
+/* --- POSITIONNEMENT --- */
+/* Page */
+body {
+	padding: 30px 10px 0 10px;
+}
+#global {
+	width: 90%;
+	overflow: hidden; /* -> 2 */
+	min-width: 300px;
+	max-width: 1000px; /* -> 3 */
+	margin-left: auto;
+	margin-right: auto; /* -> 4 */
+}
+
+/* En-tête */
+#entete {
+	padding: 80px;
+}
+#entete h1 {
+	margin: 0;
+}
+#entete h1 img {
+	float: left;
+	margin: 7px 20px 10px 0;
+}
+#entete .sous-titre {
+	margin: 40px 0 15px 0;
+}
+
+/* Menu de navigation */
+#navigation {
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  Float: left;
+}
+#navigation li {
+  background: #81908E ;
+  color: #81908E ;
+  border: 3px solid #ECF3F2 ;
+  margin-bottom: 40px ;
+}
+#navigation li a {
+  display: block ;
+  background: #81908E ;
+  color: #000000 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 6px 0 ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: #CCCCCC ;
+  text-decoration: underline ;
+}
+
+/* Contenu */
+#contenu {
+	margin-left: 220px; /* -> 7 */
+	padding: 10px 20px 10px 40px;
+}
+#contenu > :first-child {
+	margin-top: 10px;
+}
+#contenu p, #contenu li {
+	line-height: 1.5;
+}
+
+/* Mention */
+#mention {
+	width: 180px;
+	margin: 0;
+	padding: 0 0 10px 20px;
+	text-align: left;
+}
